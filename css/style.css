@@ -29,6 +29,24 @@ h2{
     padding-bottom: 21em;
 }
 
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 25%;
+
+
+    background-color: rgb(29, 28, 28);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 150px;
+}
+
+
 @media screen and (max-width: 950px){
     body{
         padding-right: 4em;
