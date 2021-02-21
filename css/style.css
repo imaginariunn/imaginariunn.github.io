@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: black;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: large;
+}
+
+.o{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: azure;
+
+    padding-top: 12em;
+}
+
+h2{
+    color: rgb(14, 13, 13);
+
+    padding-top: 18em;
+    padding-bottom: 21em;
+}
+
+@media screen and (max-width: 950px){
+    body{
+        padding-right: 4em;
+        padding-left: 4em;
+    }
+}
