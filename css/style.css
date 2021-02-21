@@ -22,6 +22,12 @@ body{
     padding-top: 12em;
 }
 
+p{
+    padding: 4em;
+
+    font-size: larger;
+}
+
 h2{
     color: rgb(14, 13, 13);
 
